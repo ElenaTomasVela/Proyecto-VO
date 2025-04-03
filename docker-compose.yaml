@@ -1,13 +1,6 @@
 name: deepcell
 services:
   deepcell-tf:
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              capabilities:
-                - gpu
     stdin_open: true
     tty: true
     ports:
